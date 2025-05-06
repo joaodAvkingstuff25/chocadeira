@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chocadeira: Trabalho Escolar</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="p-5 bg-info text-white">
+    <nav class="container d-flex justify-content-between align-items-center">
+      <span class="h3">Chocadeiras</span>
+      <ul class="nav mt-3">
+        <li class="nav-item"><a class="nav-link text-white" href="#inicio">Início</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#o-que-e">O Que É</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#funcionamento">Funcionamento</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#tipos">Tipos de Chocadeiras</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container my-5">
+
+    <section id="inicio" class="my-5 bg-light p-4 rounded">
+      <div class="inicio-fundo">
+        <h1 class="display-4 text-info fw-bold">Chocadeira</h1>
+        <p class="lead">Um projeto escolar sobre o funcionamento das chocadeiras e seu uso na incubação de ovos.</p>
+        <img src="img/938f3567ba2100ca7ec65bcd25dddc8d.jpg" alt="Imagem de uma chocadeira com ovos" class="img-fluid" style="max-width: 300px;">
+      </div>
+    </section>
+
+    <section id="o-que-e" class="my-5 pt-6 bg-light p-4 rounded" tabindex="0" aria-label="Seção sobre o que é chocadeira">
+      <div class="container">
+        <h2>O Que é uma Chocadeira?</h2>
+        <p class="p-2">A chocadeira é um dispositivo utilizado para incubar ovos, especialmente em ambientes controlados. Ela mantém a temperatura, umidade e ventilação ideais para o desenvolvimento dos embriões. A chocadeira é essencial na produção de aves, seja em sistemas comerciais ou em pequena escala.</p>
+        <p class="p-2">Essa tecnologia possibilita o nascimento de aves de maneira mais controlada e com maior sucesso de eclosão, já que simula o processo natural de incubação, mas de forma mais eficiente e previsível.</p>
+      </div>
+    </section>
+
+    <section id="funcionamento" class="my-5 pt-6 bg-light p-4 rounded" tabindex="0" aria-label="Seção sobre o funcionamento da chocadeira">
+      <div class="container">
+        <h2>Funcionamento da Chocadeira</h2>
+        <p class="p-2">O funcionamento de uma chocadeira se baseia no controle de temperatura e umidade. A temperatura interna deve ser mantida entre 37,5°C e 38°C para que os embriões se desenvolvam corretamente. A umidade deve ser controlada entre 50% a 60% para evitar a desidratação dos ovos.</p>
+        <p class="p-2">Algumas chocadeiras possuem sistemas automáticos de ventilação, que garantem a troca de ar necessária para o desenvolvimento dos embriões. Além disso, o viramento dos ovos também pode ser feito de forma automática, garantindo uma incubação mais eficiente.</p>
+      </div>
+    </section>
+
+    <section id="tipos" class="my-5 pt-6 bg-light p-4 rounded" tabindex="0" aria-label="Seção sobre os tipos de chocadeiras">
+      <div class="container">
+        <h2>Tipos de Chocadeiras</h2>
+        <p>Existem vários tipos de chocadeiras, cada uma com características específicas para diferentes necessidades:</p>
+        <ul>
+          <li><strong>Chocadeira Manual:</strong> Requer que o operador controle manualmente a temperatura e umidade, e vire os ovos de forma periódica. É indicada para quem tem um número pequeno de ovos.</li>
+          <li><strong>Chocadeira Automática:</strong> Possui controle digital de temperatura, umidade e ventilação. Além disso, o sistema de viramento de ovos é automático, o que facilita o uso e aumenta a taxa de sucesso de eclosão.</li>
+          <li><strong>Chocadeira Industrial:</strong> Usada para incubar grandes quantidades de ovos. Ela é totalmente automatizada, com controle de temperatura, umidade e ventilação, ideal para produções comerciais em larga escala.</li>
+        </ul>
+        <p>Escolher o tipo de chocadeira adequado depende de fatores como a quantidade de ovos a ser incubada e o nível de automação desejado.</p>
+      </div>
+    </section>
+
+    <section id="contato" class="my-5 pt-6 bg-light p-4 rounded formulario" tabindex="0" aria-label="Seção de contato">
+      <div class="container">
+        <h2>Contato</h2>
+        <p>Se você tem dúvidas sobre como funciona uma chocadeira ou precisa de mais informações sobre o tema, entre em contato conosco:</p>
+        <form>
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome:</label>
+            <input type="text" class="form-control" id="nome" name="nome" placeholder="Seu nome" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Seu email" required>
+          </div>
+          <div class="mb-3">
+            <label for="mensagem" class="form-label">Mensagem:</label>
+            <textarea class="form-control" id="mensagem" name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-info btn-lg">Enviar Mensagem</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-info text-center py-3 text-white fst-italic">
+    <p>&copy; 2025 Trabalho Escolar sobre Chocadeiras</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
